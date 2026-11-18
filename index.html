@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d14">
+  <meta name="description" content="Hamza'nın kişisel yazılım portföyü. Web geliştirme, arayüz tasarımı ve dijital projeler.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hamza — Kişisel Portföy">
+  <meta property="og:description" content="Kod, tasarım ve yeni fikirler. Hamza'nın dijital dünyasına hoş geldin.">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Hamza — Tasarla. Kodla. Üret.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#anasayfa" aria-label="Hamza, ana sayfa">
+        <span class="brand-mark">h<span class="brand-period">.</span></span>
+        <span class="brand-name">hamza<span class="brand-muted">/dev</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#projeler">Projeler</a>
+      </nav>
+      <button id="themeToggle" class="icon-button" type="button" aria-label="Görünümü değiştir" title="Görünümü değiştir">
+        <svg class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 14.2A8.7 8.7 0 0 1 9.8 3.2 8.8 8.8 0 1 0 20.8 14.2Z"/></svg>
+        <svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </header>
+
+    <main id="icerik">
+      <section class="hero" id="anasayfa" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> MERHABA, BEN HAMZA <span class="eyebrow-spark">✳</span></div>
+          <h1 id="hero-title">Düşün.<br><span class="type-outline">Tasarla.</span><br><span class="gradient-text">Üret.</span></h1>
+          <p class="hero-intro">Fikirleri piksele, pikselleri çalışan ürünlere dönüştürmeyi seviyorum. Web geliştirme, tasarım ve yeni şeyler üretmek tam bana göre.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#projeler">Projelerimi keşfet <span aria-hidden="true">↗</span></a>
+            <button class="secondary-button" id="copyLink" type="button">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+              <span>Bağlantıyı kopyala</span>
+            </button>
+          </div>
+          <div class="hero-meta"><span class="meta-line"></span><span>KOD • TASARIM • MERAK</span></div>
+        </div>
+        <div class="hero-art" aria-label="H harfi ile oluşturulmuş soyut profil görseli" role="img">
+          <div class="art-grid" aria-hidden="true"></div>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="floating-star star-a" aria-hidden="true">✦</div>
+          <div class="floating-star star-b" aria-hidden="true">✳</div>
+          <div class="monogram" aria-hidden="true">H<span>.</span></div>
+          <div class="art-pill pill-top"><span class="pill-signal"></span> always building</div>
+          <div class="art-pill pill-bottom"><span>⌘</span> create / explore / repeat</div>
+          <div class="art-corner top-left" aria-hidden="true"></div>
+          <div class="art-corner bottom-right" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="about-section" id="hakkimda" aria-labelledby="about-title">
+        <div class="section-heading"><span class="section-index">01 / HAKKIMDA</span><h2 id="about-title">Biraz da <em>benden.</em></h2></div>
+        <div class="about-grid">
+          <div class="about-main">
+            <p>Ben <strong>Hamza.</strong> İnternette yalnızca gezinmek yerine bir şeyler inşa etmeyi sevenlerdenim. Yeni bir fikir çıktığında onu araştırmak, tasarlamak ve çalışır hâle getirmek en sevdiğim süreç.</p>
+            <p>Bu küçük köşe; denemelerimi, üzerinde çalıştığım projeleri ve dijital dünyada bıraktığım izleri bir araya getiriyor.</p>
+          </div>
+          <div class="skill-stack" aria-label="İlgi alanlarım">
+            <div class="skill-title">İLGİ ALANLARIM <span>↘</span></div>
+            <div class="skill-tags"><span>Web geliştirme</span><span>UI / UX</span><span>PHP</span><span>JavaScript</span><span>Yeni fikirler</span><span>Yapay zekâ</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projeler" aria-labelledby="projects-title">
+        <div class="section-heading projects-header"><div><span class="section-index">02 / PROJELER</span><h2 id="projects-title">Üzerinde <em>çalıştıklarım.</em></h2></div><span class="work-note">SEÇİLİ ÇALIŞMALAR <span aria-hidden="true">↗</span></span></div>
+        <div class="project-grid">
+          <a class="project-card project-one" href="https://badarakademi.com/" target="_blank" rel="noopener noreferrer" aria-label="Badar Akademi web sitesini yeni sekmede aç">
+            <div class="project-top"><span class="project-number">01</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            <div class="project-art project-art-one" aria-hidden="true"><span class="fake-browser"><span></span><span></span><span></span></span><span class="project-emblem">B<span>✳</span></span><span class="project-art-caption">learn · build · grow</span></div>
+            <div class="project-bottom"><div><span class="project-category">EĞİTİM PLATFORMU</span><h3>Badar Akademi</h3><p>Dijital öğrenme deneyimi üzerine bir web projesi.</p></div><span class="project-visit">Siteyi incele ↗</span></div>
+          </a>
+          <a class="project-card project-two" href="https://tekellist.com.tr/" target="_blank" rel="noopener noreferrer" aria-label="TekelList web sitesini yeni sekmede aç">
+            <div class="project-top"><span class="project-number">02</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            <div class="project-art project-art-two" aria-hidden="true"><div class="project-rings"><i></i><i></i><i></i></div><span class="project-emblem small">T<span>.</span></span><span class="project-art-caption">discover / compare / explore</span></div>
+            <div class="project-bottom"><div><span class="project-category">BİLGİ PLATFORMU</span><h3>TekelList</h3><p>İçerik, keşif ve sade kullanıcı deneyimine odaklanan web projesi.</p></div><span class="project-visit">Siteyi incele ↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title"><div class="closing-shine" aria-hidden="true"></div><span class="section-index">03 / DEVAM EDİYOR...</span><h2 id="closing-title">Sıradaki fikir<br><span>henüz yazılmadı.</span></h2><p>Yeni bir şey öğrenmek, denemek ve daha iyisini yapmak için buradayım.</p><a class="closing-link" href="#anasayfa">Başa dön <span aria-hidden="true">↑</span></a></section>
+    </main>
+    <footer class="footer"><span>© <span id="currentYear">2026</span> Hamza. Biraz kod, biraz merak.</span><a href="#anasayfa">Yukarı ↑</a></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
